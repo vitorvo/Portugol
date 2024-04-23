@@ -3,16 +3,21 @@ programa
 	
 	funcao inicio()
 	{
+		//Declaração das variáveis
 		real dividendo
 		real divisor
+		real resultado
 
+		//Entrada de dados do usuário: Dividendo e divisor
 		escreva("Digite o dividendo: ")
 		leia(dividendo)
 
 		escreva("Digite o divisor: ")
 		leia(divisor)
 
-		escreva(dividendo / divisor)
+		//Cálculo da divisão e impressão do resultado
+		resultado = dividendo / divisor
+		escreva(resultado)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 210; 
+ * @POSICAO-CURSOR = 374; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
